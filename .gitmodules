@@ -1,7 +1,15 @@
 [submodule ".registry"]
 	path = .registry
-	url = https://github.com/r-universe-org/cran-to-git
+	url = https://github.com/reditorsupport/reditorsupport.r-universe.dev
 	branch = HEAD
+[submodule "jgd"]
+	path = jgd
+	url = https://github.com/REditorSupport/jgd
+	subdir = r-pkg
 [submodule "languageserver"]
 	path = languageserver
-	url = https://github.com/reditorsupport/languageserver
+	url = https://github.com/REditorSupport/languageserver
+[submodule "sess"]
+	path = sess
+	url = https://github.com/REditorSupport/vscode-R
+	subdir = sess
